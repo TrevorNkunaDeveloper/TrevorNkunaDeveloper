@@ -16,16 +16,13 @@ p {
 
 ul {
   top: 0;
+  position: relative;
   width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-}
-
-li {
-  float: left;
 }
 
 li a {
@@ -42,4 +39,7 @@ li a:hover {
 
 .active {
   background-color: #04AA6D;
+}
+section {
+  cont
 }
