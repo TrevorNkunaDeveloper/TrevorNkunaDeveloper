@@ -1,6 +1,7 @@
 body {
   background-color:#1ABC9C; 
   align-content: center;
+  font-family: verdana;
 }
 
 h1 {
@@ -9,14 +10,12 @@ h1 {
 }
 
 p {
-  font-family: verdana;
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 
 ul {
   top: 0;
-  position: fixed;
   width: 100%;
   list-style-type: none;
   margin: 0;
