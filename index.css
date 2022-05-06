@@ -257,7 +257,7 @@ section .title::after{
 /* portfolio section styling */
 .portfolio, .teams{
     color:#fff;
-    background: #111;
+    background: #148cdc;
 }
 .portfolio .title::before,
 .teams .title::before{
@@ -265,7 +265,7 @@ section .title::after{
 }
 .portfolio .title::after,
 .teams .title::after{
-    background: #111;
+    background: #148cdc;
 }
 .portfolio .portfolio-content .card{
     width: calc(33% - 20px);
@@ -539,6 +539,16 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+.contact .contact-content .card{
+    align-content: center;
+    width: calc(33% - 20px);
+    background: #148cdc;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
