@@ -1,11 +1,12 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
-        if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
-        }else{
-            $('.navbar').removeClass("sticky");
-        }
+        var navbar = document.querySelector('.navbar');
+  if (window.pageYOffset > 100) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
         
         // scroll-up button show/hide script
         if(this.scrollY > 500){
