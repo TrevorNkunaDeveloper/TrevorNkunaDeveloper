@@ -46,30 +46,32 @@
 		</div>
 	</div>
 
-	<section class="about" id="about">
-		<div class="max-width">
-			<h2 class="title">About me.</h2>
-			<div class="about-content">
-				<div class="column left">
-					<img src="images/profile-1.jpg" alt="Image of Trevor" />
-				</div>
-				<div class="column right">
-					<div class="text">I'm Trevor and I'm a <span class="typing-2"></span></div>
-					<p>Hello, I'm Trevor. I'm a Computer Systems Engineering Graduate (Postgraduate Diploma) with a complete
-						understanding of entire software development lifecycle. I am currently employed as a Software
-						Engineer at the Council For Scientific and Industrial Research (Smart Mobility). I was previously enrolled in a Graduate Program 
-						as a Java Systems Developer by Umuzi in partneship with TelkomSA. I am highly
-						trained in software engineering and also have extensive experience in data analytics and data
-						science. I am known for being self-motivated and having talents in coding and problem solving.
-						My aspirations are to make the world a better place through code.
-					</p>
-					<a href="https://drive.google.com/file/d/1lvb6MgEaVZdC4qEicQ895X-ztdG5s7_d/view?usp=drive_link"
-						target="_blank">View my CV</a>
+	<div data-aos="fade-up">
+		<!-- Content here will fade up when it comes into view -->
+		<section class="about" id="about">
+			<div class="max-width">
+				<h2 class="title">About me.</h2>
+				<div class="about-content">
+					<div class="column left">
+						<img src="images/profile-1.jpg" alt="Image of Trevor" />
+					</div>
+					<div class="column right">
+						<div class="text">I'm Trevor and I'm a <span class="typing-2"></span></div>
+						<p>Hello, I'm Trevor. I'm a Computer Systems Engineering Graduate (Postgraduate Diploma) with a complete
+							understanding of entire software development lifecycle. I am currently employed as a Software
+							Engineer at the Council For Scientific and Industrial Research (Smart Mobility). I was previously enrolled in a Graduate Program 
+							as a Java Systems Developer by Umuzi in partneship with TelkomSA. I am highly
+							trained in software engineering and also have extensive experience in data analytics and data
+							science. I am known for being self-motivated and having talents in coding and problem solving.
+							My aspirations are to make the world a better place through code.
+						</p>
+						<a href="https://drive.google.com/file/d/1lvb6MgEaVZdC4qEicQ895X-ztdG5s7_d/view?usp=drive_link"
+							target="_blank">View my CV</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	
 
 	<div data-aos="fade-up">
@@ -332,7 +334,7 @@
 			$('a[href*="#"]').click(function(event) {
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
-            }, 5000);
+            }, 1000);
             event.preventDefault();
         });
 			AOS.init();
