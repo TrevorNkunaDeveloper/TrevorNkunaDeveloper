@@ -8,7 +8,7 @@ Welcome to my corner of the internet! I'm Trevor, a passionate software develope
 
 ### 🌱 What I'm Currently Working On
 
-- **My Latest Project**: [AI-Trading-Algorithm]([Project URL](https://github.com/TrevorNkunaDeveloper/AI-Trading-Algorithm)) -  An AI Trading algorithm using LSTM and GB, testing on Alpaca PY platform that can be used as a/integrated with trading bot.
+- **My Latest Project**: [AI-Trading-Algorithm]((https://github.com/TrevorNkunaDeveloper/AI-Trading-Algorithm)) -  An AI Trading algorithm using LSTM and GB, testing on Alpaca PY platform that can be used as a/integrated with trading bot.
 - **Learning Journey**: Currently diving deeper into [Python for web development[Django]], and exploring [Angular, and React].
 - **Academics**: Currently working towards a Masters Degree in Computer Science.
 
@@ -16,8 +16,8 @@ Welcome to my corner of the internet! I'm Trevor, a passionate software develope
 
 Here are a few projects I'm particularly proud of:
 
-- **[Traffic Sign Classification using Open CV]([Project URL 1](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Traffic%20Sign%20Classification%20OpenCV))** - An integration of harware/software to help assist blind individuals detect different traffic signs. Technologies : [python,opencv,tensorflow,Google tect to speach library]].
-- **[Concrete Crack Detection]([Project URL 2](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Concrete%20Crack%20Detection%20(Capstone%20Project)))** - A Python project that uses AI to detect cracks on concrete surfaces. Technologies: [Python, OpenCv].
+- **[Traffic Sign Classification using Open CV]((https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Traffic%20Sign%20Classification%20OpenCV))** - An integration of harware/software to help assist blind individuals detect different traffic signs. Technologies : [python,opencv,tensorflow,Google tect to speach library]].
+- **[Concrete Crack Detection]((https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Concrete%20Crack%20Detection%20(Capstone%20Project)))** - A Python project that uses AI to detect cracks on concrete surfaces. Technologies: [Python, OpenCv].
 - **[Bank Loan Prediction](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Bank%20Loan%20Prediction)** - AI project that identifies which customer is more likely to default on a Bank loan[Python,SKLearn,Matlibplot,Pandas,Numpy].
 
 Feel free to browse through my repositories to see what I've been working on!
