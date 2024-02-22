@@ -528,3 +528,14 @@ section .title::after{
     background-color: #555; /* Add a dark-grey background on hover */
   }
   
+  .pic.left img {
+    max-width: 100%; /* Ensure the image is responsive and fits its container */
+    border-radius: 150px !important; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for interactive hover effect */
+}
+
+.pic.left img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for lifting effect */
+}
