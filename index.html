@@ -57,12 +57,17 @@
 					</div>
 					<div class="column right">
 						<div class="text">I'm Trevor and I'm a <span class="typing-2"></span></div>
-						<p>Hello, I'm Trevor. I'm a Computer Systems Engineering Graduate (Postgraduate Diploma) with a complete
-							understanding of entire software development lifecycle. I am currently employed as a Software
-							Engineer at the Council For Scientific and Industrial Research (Smart Mobility). I was previously enrolled in a Graduate Program 
+						<p>Hello, I'm Trevor. I'm a Computer Systems Engineering Graduate (Postgraduate Diploma) with a
+							complete
+							understanding of entire software development lifecycle. I am currently employed as a
+							Software
+							Engineer at the Council For Scientific and Industrial Research (Smart Mobility). I was
+							previously enrolled in a Graduate Program
 							as a Java Systems Developer by Umuzi in partneship with TelkomSA. I am highly
-							trained in software engineering and also have extensive experience in data analytics and data
-							science. I am known for being self-motivated and having talents in coding and problem solving.
+							trained in software engineering and also have extensive experience in data analytics and
+							data
+							science. I am known for being self-motivated and having talents in coding and problem
+							solving.
 							My aspirations are to make the world a better place through code.
 						</p>
 						<a href="https://drive.google.com/file/d/1lvb6MgEaVZdC4qEicQ895X-ztdG5s7_d/view?usp=drive_link"
@@ -72,7 +77,7 @@
 			</div>
 		</section>
 	</div>
-	
+
 
 	<div data-aos="fade-up">
 		<!-- Content here will fade up when it comes into view -->
@@ -140,7 +145,7 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!-- Concrete Strength Prediction -->
 					<div class="col-md-4 col-sm-6 mb-3">
 						<div class="card h-100 text-center bg-dark">
@@ -165,14 +170,15 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!-- Traffic Sign Classification using Open CV -->
 					<div class="col-md-4 col-sm-6 mb-3">
 						<div class="card h-100 text-center bg-dark">
 							<div class="card-body">
 								<i class="fas fa-chart-line fa-3x mb-3"></i>
 								<h5 class="card-title">AI Based Trading Algorithm</h5>
-								<p class="card-text">AI Trading algorithm using LSTM and GB, testing on Alpaca PY platform.</p>
+								<p class="card-text">AI Trading algorithm using LSTM and GB, testing on Alpaca PY
+									platform.</p>
 								<a href="https://github.com/TrevorNkunaDeveloper/AI-Trading-Algorithm"
 									class="btn btn-primary" target="_blank">View Code</a>
 							</div>
@@ -182,7 +188,7 @@
 			</div>
 		</section>
 	</div>
-	
+
 
 	<div data-aos="fade-up">
 		<!-- Content here will fade up when it comes into view -->
@@ -266,8 +272,11 @@
 				</div>
 			</div>
 		</section>
+		<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">
+			<i class="fa fa-arrow-up"></i> <!-- Using Font Awesome icon for the arrow -->
+		</button>
 	</div>
-	
+
 	<div data-aos="fade-up">
 		<!-- Content here will fade up when it comes into view -->
 		<section class="contacts" id="contacts" style="background-color: #148cdc;">
@@ -322,27 +331,47 @@
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
-	
 
+		</section>
+		
+	</div>
 
 
 	<script>
-		$(document).ready(function(){
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0; // For Safari
+			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+
+
+		$(document).ready(function () {
 			// Initialize AOS
-			$('a[href*="#"]').click(function(event) {
-            $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top
-            }, 1000);
-            event.preventDefault();
-        });
+			$('a[href*="#"]').click(function (event) {
+				$('html, body').animate({
+					scrollTop: $($.attr(this, 'href')).offset().top
+				}, 1000);
+				event.preventDefault();
+			});
 			AOS.init();
 		});
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 	<script src="script.js"></script>
 </body>
 
