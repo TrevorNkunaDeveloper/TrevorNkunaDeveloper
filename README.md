@@ -15,7 +15,7 @@ Welcome to my corner of the internet! I'm Trevor, a passionate software develope
 ### 🔭 Projects Showcase
 
 Here are a few projects I'm particularly proud of:
-
+- **[Real-Time Traffic Counts System](https://github.com/TrevorNkunaDeveloper/Yolov8)** - Python, Yolov8, Flask application that uses object classification, object detection, image segmentation and counting using Yolov8 pretrained models to count the number of vehicles in a freeway.
 - **[Traffic Sign Classification using Open CV](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Traffic%20Sign%20Classification%20OpenCV)** - An integration of harware/software to help assist blind individuals detect different traffic signs. Technologies : [python,opencv,tensorflow,Google tect to speach library]].
 - **[Concrete Crack Detection](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Concrete%20Crack%20Detection%20(Capstone%20Project)/Code)** - A Python project that uses AI to detect cracks on concrete surfaces. Technologies: [Python, OpenCv].
 - **[Bank Loan Prediction](https://github.com/TrevorNkunaDeveloper/Artificial-Intelligence/tree/main/Bank%20Loan%20Prediction)** - AI project that identifies which customer is more likely to default on a Bank loan[Python,SKLearn,Matlibplot,Pandas,Numpy].
